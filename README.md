@@ -1,16 +1,45 @@
-# React + Vite
+<h1 align="center">Aetheria</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <em>Uma base de conhecimento estruturada sobre design moderno e front-end.</em>
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=WHITE" alt="Vite" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Gemini_GEM-8E44AD?style=for-the-badge&logo=google&logoColor=white" alt="Gemini GEM" />
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Sobre o Projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O **Aetheria** surgiu como um estudo prático voltado para a montagem e refinamento de um agente (GEM no Gemini). A função desta aplicação é consolidar uma base estruturada de conhecimento sobre **design moderno e desenvolvimento front-end**, com o objetivo principal de **fugir do padrão convencional** e explorar novas abordagens visuais e estruturais.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Engenharia e Construção
+
+Este site foi integralmente concebido e estruturado utilizando o modelo **Flash** em conjunto com o agente especializado **"Star Horizon"**, demonstrando o potencial da IA na arquitetura de interfaces e código limpo.
+
+---
+
+## Tecnologias Utilizadas
+
+As principais ferramentas e tecnologias que compõem o projeto:
+
+- [React](https://react.dev/) - Biblioteca para construção de interfaces
+- [Vite](https://vitejs.dev/) - Empacotador e ambiente de desenvolvimento ultrarrápido
+- [TypeScript](https://www.typescriptlang.org/) - Tipagem estática para JavaScript
+- **Gemini GEM (Star Horizon)** - Agente de IA responsável pela idealização e construção do projeto
+
+---
+
+## Como Executar o Projeto
+
+Certifique-se de ter o **Node.js** e o gerenciador de pacotes (`npm`, `yarn` ou `pnpm`) instalados na sua máquina.
+
+1. Clone este repositório:
+   ```bash
+   git clone [https://github.com/seu-usuario/aetheria-app.git](https://github.com/seu-usuario/aetheria-app.git)
