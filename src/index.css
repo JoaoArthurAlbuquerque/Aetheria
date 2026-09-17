@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Syne:wght@400..800&display=swap");
+
+@layer base {
+  :root {
+    --font-display: "Syne", sans-serif;
+    --font-body: "Plus Jakarta Sans", sans-serif;
+  }
+
+  body {
+    background-color: #0a0908;
+    color: #f4f1ea;
+    font-family: var(--font-body);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11", "tnum";
+    overflow-x: hidden;
+  }
+
+  /* Ajuste de escala tipográfica variável para Widescreen 1080p */
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+  }
+}
+
+/* Utilitário para tipografia variável com eixo de peso */
+.font-syne-bold {
+  font-family: var(--font-display);
+  font-variation-settings: "wght" 800;
+}
+
+.font-body-variable {
+  font-family: var(--font-body);
+  font-variation-settings: "wght" 450;
+}
+
+/* Suporte a reduced motion em toda a aplicação */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
